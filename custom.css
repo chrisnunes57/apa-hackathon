@@ -1,0 +1,35 @@
+#chat-apa-hack{
+    width: 350px;
+    height: 500px;
+}
+
+#chat-apa-hack-container{
+    background-color: white !important;
+    position: fixed;
+    bottom: 0;
+    right: 40px;
+    transition: bottom 0.3s ease-in-out;
+}
+
+#chat-apa-hack-container.chat-apa-hack-hidden{
+    bottom: -462px;
+}
+
+#chat-apa-hack-toggle{
+    position: absolute;
+    z-index: 3;
+    color: #fff;
+    padding-left: 100%;
+    height: max-content;
+    top: 8px;
+    right: 15px;
+    font-family: "Segoe UI", sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    -webkit-user-select: none; /* Safari */        
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
+    cursor: pointer;
+}
+

@@ -1,0 +1,15 @@
+  {
+    "name": "APA Hack",
+    "version": "1.0",
+    "description": "Save those puppies",
+    "content_scripts": [
+        {
+        "matches": [
+            "https://www.austinpetsalive.org/*",
+            "http://www.austinpetsalive.org/*"
+            ],
+        "js": ["background.js"]
+        }
+    ], 
+    "manifest_version": 2
+  }

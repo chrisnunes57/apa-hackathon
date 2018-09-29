@@ -9,6 +9,7 @@
     bottom: 0;
     right: 40px;
     transition: bottom 0.3s ease-in-out;
+    z-index: 999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999;
 }
 
 #chat-apa-hack-container.chat-apa-hack-hidden{
